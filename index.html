@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Desarrollo Web</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/fd515b2314.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./CSS/estilos.css">
+    </head>
+    <body>
+        <!--Menu de navegacion-->
+        <nav>
+            <h1>Bienvenido</h1>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#trabajo">Proceso de trabajo</a></li>
+                <li><a href="#contacto">Contactar</a></li>
+            </ul>
+        </nav>
+        <!--Bloque de inicio-->
+        <article>
+            <section id="inicio">
+                <div id="imgyo"><img src="./imagenes/285698059_1117843028772443_3734214354485585223_n.jpg" alt="Foto"></div>
+                <div id="bodyinicio">
+                    <h2>Inicio</h2>
+                    <p>"Creamos paginas web profesionales que implsan tu negocio"</p>
+                    <p>"Diseños modernos, optimizados y adaptados a tus necesidades"</p>
+                    <ul id="enlaces">
+                        <li><a href="https://accounts.google.com" target="_blank"><i class="fa-solid fa-envelope"></i></a></li>
+                        <li><a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </section>
+        <!--Bloque de servicios-->
+            <section id="servicios">
+                <h2>Servicios</h2>
+                <ul>
+                    <li>Páginas Web Corporativas - Para negocios que necesitan presencia en línea.</li>
+                    <li>Tiendas Online - E-commerce optimizado con pagos seguros.</li>
+                    <li>Landing Pages - Páginas de alta conversión para campañas de marketing.</li>
+                    <li>Blogs y Portafolios - Para creadores de contenido y freelancers.</li>
+                </ul>
+            </section>
+            <!--Bloque de trabajo-->
+            <section id="trabajo">
+                <h2>Proceso de trabajo</h2>
+                <ul>
+                    <li>Consulta Gratis - Entendemos tu idea y necesidades.</li>
+                    <li>Diseño & Desarrollo - Creamos un diseño atractivo y funcional.</li>
+                    <li>Optimización & Pruebas - Aseguramos velocidad y compatibilidad.</li>
+                    <li>Lanzamiento & Soporte - Entrega final con asesoramiento técnico.</li>
+                </ul>
+            </section>
+            <section  id="contacto">
+                <h2>Ponte en Contacto</h2>
+                <form action="">
+                    <div class="cont">
+                        <label for="nombre">Nombre :</label>
+                        <input type="text" id="nombre" name="nombre" minlength="2" maxlength="64" size="14" required>
+                    </div>
+                    <div class="cont">
+                        <label for="empresa">Empresa :</label>
+                        <input type="text" id="empresa" name="empresa"  minlength="5" maxlength="128" size="14">
+                    </div>
+                    <div class="cont">
+                        <label for="email">Email :</label>
+                        <input type="email" id="email" name="email" minlength="10" maxlength="128" required>
+                    </div>
+                    <div class="cont">
+                        <label for="mensaje">Mensaje :</label>
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="5"></textarea>
+                    </div>
+                    <div id="cont">
+                        <input type="submit" name="boton" value="Enviar">
+                    </div>
+                </form>
+            </section>
+        </article>
+         <!--Footer-->
+        <footer id="footer">
+            <h2>Gracias por su interes</h2>
+        </footer>
+    </body>
+</html>
